@@ -1,0 +1,165 @@
+﻿:root {
+  --bg: #edf3f8;
+  --panel: #ffffff;
+  --line: #cfd8e3;
+  --text: #102133;
+  --muted: #5a6f81;
+  --user: #d7f8e8;
+  --bot: #e8eff8;
+  --accent: #0e766e;
+  --accent-hover: #0a615b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  background: linear-gradient(180deg, #dfe8f1 0%, #edf3f8 100%);
+  color: var(--text);
+}
+
+.app {
+  width: min(900px, 95vw);
+  height: 90vh;
+  margin: 5vh auto;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.header {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--line);
+  background: #f7fbff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.header p {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+.ghost-btn {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--text);
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.ghost-btn:hover {
+  background: #f1f7fb;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px;
+}
+
+.message {
+  max-width: 84%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  line-height: 1.45;
+  white-space: pre-wrap;
+}
+
+.message.user {
+  align-self: flex-end;
+  background: var(--user);
+}
+
+.message.bot {
+  align-self: flex-start;
+  background: var(--bot);
+}
+
+.option-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.option-chip {
+  border: 1px solid #9cc0de;
+  background: #f5faff;
+  color: #123b59;
+  border-radius: 999px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 0.88rem;
+}
+
+.option-chip:hover {
+  background: #e8f4ff;
+}
+
+.composer {
+  padding: 12px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  gap: 10px;
+  background: #f9fcff;
+}
+
+.composer input {
+  flex: 1;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 0.96rem;
+}
+
+.composer button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  color: #fff;
+  background: var(--accent);
+  cursor: pointer;
+}
+
+.composer button:hover {
+  background: var(--accent-hover);
+}
+
+.mic-btn {
+  background: #2667a8;
+}
+
+.mic-btn.listening {
+  background: #b91c1c;
+}
+
+@media (max-width: 700px) {
+  .app {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .message {
+    max-width: 100%;
+  }
+}

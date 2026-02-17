@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transport Agent</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <div>
+        <h1>Transport Agent</h1>
+        <p>Lucknow bus route assistant</p>
+      </div>
+      <button id="guided-btn" class="ghost-btn" type="button">Start Guided</button>
+    </header>
+
+    <section id="messages" class="messages" aria-live="polite">
+      <div class="message bot">Hello! You can ask me about bus routes in Lucknow.</div>
+    </section>
+
+    <form id="chat-form" class="composer">
+      <input id="chat-input" type="text" placeholder="Try: bus from gomtinagar to airport" autocomplete="off" required />
+      <button id="mic-btn" class="mic-btn" type="button" title="Voice input">Mic</button>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <script src="/static/chat.js"></script>
+</body>
+</html>

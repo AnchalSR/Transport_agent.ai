@@ -1,0 +1,49 @@
+﻿route_id,from_stop,to_stop,bus_number,departure_time,duration_minutes,stops
+R1,Gomti Nagar,Amausi Airport,25A,07:45,44,Gomti Nagar|Hazratganj|Alambagh|Amausi Airport
+R1,Gomti Nagar,Amausi Airport,25A,10:30,40,Gomti Nagar|Alambagh|Amausi Airport
+R1,Gomti Nagar,Amausi Airport,25A,18:00,42,Gomti Nagar|Hazratganj|Alambagh|Amausi Airport
+R2,Gomti Nagar,Charbagh,11C,08:20,34,Gomti Nagar|Hazratganj|Charbagh
+R2,Gomti Nagar,Charbagh,11C,12:10,33,Gomti Nagar|Hazratganj|Charbagh
+R2,Gomti Nagar,Charbagh,11C,17:40,36,Gomti Nagar|Hazratganj|Charbagh
+R3,Indira Nagar,Charbagh,14B,07:30,38,Indira Nagar|Mahanagar|Hazratganj|Charbagh
+R3,Indira Nagar,Charbagh,14B,11:15,36,Indira Nagar|Mahanagar|Hazratganj|Charbagh
+R3,Indira Nagar,Charbagh,14B,19:05,41,Indira Nagar|Mahanagar|Hazratganj|Charbagh
+R4,Alambagh,Chowk,7A,06:50,32,Alambagh|Charbagh|Aminabad|Chowk
+R4,Alambagh,Chowk,7A,09:40,30,Alambagh|Charbagh|Aminabad|Chowk
+R4,Alambagh,Chowk,7A,16:20,34,Alambagh|Charbagh|Aminabad|Chowk
+R5,Charbagh,Amausi Airport,9D,07:10,30,Charbagh|Alambagh|Amausi Airport
+R5,Charbagh,Amausi Airport,9D,13:00,28,Charbagh|Alambagh|Amausi Airport
+R5,Charbagh,Amausi Airport,9D,20:00,32,Charbagh|Alambagh|Amausi Airport
+R6,Vikas Nagar,Alambagh,21E,08:00,46,Vikas Nagar|Aliganj|Mahanagar|Hazratganj|Charbagh|Alambagh
+R6,Vikas Nagar,Alambagh,21E,14:10,43,Vikas Nagar|Aliganj|Mahanagar|Hazratganj|Charbagh|Alambagh
+R6,Vikas Nagar,Alambagh,21E,18:45,47,Vikas Nagar|Aliganj|Mahanagar|Hazratganj|Charbagh|Alambagh
+R7,Telibagh,Gomti Nagar,32A,06:40,50,Telibagh|Charbagh|Hazratganj|Mahanagar|Gomti Nagar
+R7,Telibagh,Gomti Nagar,32A,12:30,48,Telibagh|Charbagh|Hazratganj|Mahanagar|Gomti Nagar
+R7,Telibagh,Gomti Nagar,32A,17:50,51,Telibagh|Charbagh|Hazratganj|Mahanagar|Gomti Nagar
+R8,Rajajipuram,Charbagh,5B,07:20,35,Rajajipuram|Alambagh|Charbagh
+R8,Rajajipuram,Charbagh,5B,10:50,33,Rajajipuram|Alambagh|Charbagh
+R8,Rajajipuram,Charbagh,5B,18:10,37,Rajajipuram|Alambagh|Charbagh
+R9,Aliganj,Hazratganj,18F,08:25,29,Aliganj|Mahanagar|Hazratganj
+R9,Aliganj,Hazratganj,18F,12:55,27,Aliganj|Mahanagar|Hazratganj
+R9,Aliganj,Hazratganj,18F,19:20,31,Aliganj|Mahanagar|Hazratganj
+R10,Mahanagar,Aminabad,12D,07:55,26,Mahanagar|Hazratganj|Aminabad
+R10,Mahanagar,Aminabad,12D,15:05,24,Mahanagar|Hazratganj|Aminabad
+R10,Mahanagar,Aminabad,12D,21:10,29,Mahanagar|Hazratganj|Aminabad
+R11,Hazratganj,Amausi Airport,19C,09:05,37,Hazratganj|Charbagh|Alambagh|Amausi Airport
+R11,Hazratganj,Amausi Airport,19C,14:30,35,Hazratganj|Charbagh|Alambagh|Amausi Airport
+R11,Hazratganj,Amausi Airport,19C,20:40,39,Hazratganj|Charbagh|Alambagh|Amausi Airport
+R12,Gomti Nagar,Aliganj,27B,06:30,28,Gomti Nagar|Mahanagar|Aliganj
+R12,Gomti Nagar,Aliganj,27B,11:45,26,Gomti Nagar|Mahanagar|Aliganj
+R12,Gomti Nagar,Aliganj,27B,17:15,30,Gomti Nagar|Mahanagar|Aliganj
+R13,Charbagh,Indira Nagar,31A,08:35,37,Charbagh|Hazratganj|Mahanagar|Indira Nagar
+R13,Charbagh,Indira Nagar,31A,13:50,35,Charbagh|Hazratganj|Mahanagar|Indira Nagar
+R13,Charbagh,Indira Nagar,31A,19:25,39,Charbagh|Hazratganj|Mahanagar|Indira Nagar
+R14,Alambagh,Gomti Nagar,16E,07:05,41,Alambagh|Charbagh|Hazratganj|Gomti Nagar
+R14,Alambagh,Gomti Nagar,16E,12:25,39,Alambagh|Charbagh|Hazratganj|Gomti Nagar
+R14,Alambagh,Gomti Nagar,16E,18:30,42,Alambagh|Charbagh|Hazratganj|Gomti Nagar
+R15,Aminabad,Chowk,8C,06:25,21,Aminabad|Chowk
+R15,Aminabad,Chowk,8C,11:35,20,Aminabad|Chowk
+R15,Aminabad,Chowk,8C,17:55,22,Aminabad|Chowk
+R16,Charbagh,Gomti Nagar,22D,09:15,36,Charbagh|Hazratganj|Gomti Nagar
+R16,Charbagh,Gomti Nagar,22D,14:20,34,Charbagh|Hazratganj|Gomti Nagar
+R16,Charbagh,Gomti Nagar,22D,20:10,38,Charbagh|Hazratganj|Gomti Nagar
