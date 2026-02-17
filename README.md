@@ -10,6 +10,15 @@ A complete end-to-end FastAPI + vanilla JavaScript chatbot for Lucknow bus route
 - Data: single CSV file `data/raw/bus_routes.csv`
 - Communication: REST via `POST /chat`
 
+## Technical Feature
+“This project prioritizes system design clarity over prediction accuracy.”
+
+“The LLM is intentionally constrained to avoid hallucinations.”
+
+“Routing logic is deterministic and explainable.”
+
+“Protocol adapters demonstrate interoperability, not vendor dependency.
+
 ## Architecture
 - `models/intent_parser.py`
   - Uses Hugging Face model for greeting detection and free-text intent extraction only.
